@@ -2,7 +2,7 @@ import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import IconCloudDemo from "@/components/globe";
-import { Code2, Paintbrush, Database, Layout, Cpu, Cloud } from "lucide-react";
+import { Code2, Paintbrush, Database, Cpu, Cloud } from "lucide-react";
 import {
   FaReact,
   FaNodeJs,
@@ -10,8 +10,10 @@ import {
   FaDocker,
   FaGitAlt,
   FaLinux,
-  FaFigma,
   FaAws,
+  FaVuejs,
+  FaAngular,
+  FaEthereum
 } from "react-icons/fa";
 import {
   SiNextdotjs,
@@ -26,9 +28,17 @@ import {
   SiFirebase,
   SiVercel,
   SiVite,
+  SiSolidity,
+  SiRust,
+  SiEthers,
+  SiCplusplus,
+  SiExpress,
+  SiWeb3Dotjs,
+  SiOpenzeppelin,
+  SiGo,
 } from "react-icons/si";
-import { TbBrandVscode } from "react-icons/tb";
-import { BsFileEarmarkCode, BsGrid1X2 } from "react-icons/bs";
+import { TbAnchor, TbBrandVscode, TbWebhook } from "react-icons/tb";
+import { BsGrid1X2 } from "react-icons/bs";
 import { MdAnimation } from "react-icons/md";
 import { FcWorkflow } from "react-icons/fc";
 
@@ -71,10 +81,21 @@ const SkillsSection = () => {
       title: "Frontend Development",
       color: "text-blue-400",
       skills: [
-        { name: "React", icon: <FaReact className="w-4 h-4 text-[#61DAFB]" /> },
+        {
+          name: "React",
+          icon: <FaReact className="w-4 h-4 text-[#61DAFB]" />
+        },
         {
           name: "Next.js",
           icon: <SiNextdotjs className="w-4 h-4 text-white" />,
+        },
+        {
+          name: "Vue.js",
+          icon: <FaVuejs className="w-4 h-4 text-[#1572B6]" />,
+        },
+        {
+          name: "Angular",
+          icon: <FaAngular className="w-4 h-4 text-[#1572B6]" />,
         },
         {
           name: "TypeScript",
@@ -83,15 +104,7 @@ const SkillsSection = () => {
         {
           name: "Tailwind CSS",
           icon: <SiTailwindcss className="w-4 h-4 text-[#38B2AC]" />,
-        },
-        {
-          name: "HTML5",
-          icon: <BsFileEarmarkCode className="w-4 h-4 text-[#E34F26]" />,
-        },
-        {
-          name: "CSS3",
-          icon: <BsFileEarmarkCode className="w-4 h-4 text-[#1572B6]" />,
-        },
+        }
       ],
     },
     {
@@ -106,6 +119,14 @@ const SkillsSection = () => {
         {
           name: "Python",
           icon: <FaPython className="w-4 h-4 text-[#3776AB]" />,
+        },
+        {
+          name: "C++",
+          icon: <SiCplusplus className="w-4 h-4 text-[#3776AB]" />,
+        },
+        {
+          name: "Express",
+          icon: <SiExpress className="w-4 h-4 text-[#3776AB]" />,
         },
         {
           name: "PostgreSQL",
@@ -126,22 +147,37 @@ const SkillsSection = () => {
       ],
     },
     {
-      icon: Layout,
-      title: "UI/UX Design",
+      icon: FaEthereum,
+      title: "Blockchain & Smart Contract",
       color: "text-purple-400",
       skills: [
-        { name: "Figma", icon: <FaFigma className="w-4 h-4 text-[#F24E1E]" /> },
         {
-          name: "Responsive Design",
-          icon: <Layout className="w-4 h-4 text-[#38B2AC]" />,
+          name: "Web3",
+          icon: <SiWeb3Dotjs className="w-4 h-4 text-[#F24E1E]" />
         },
         {
-          name: "Wireframing",
-          icon: <BsGrid1X2 className="w-4 h-4 text-[#9CA3AF]" />,
+          name: "Solidity",
+          icon: <SiSolidity className="w-4 h-4 text-[#38B2AC]" />,
         },
         {
-          name: "Prototyping",
-          icon: <MdAnimation className="w-4 h-4 text-[#F59E0B]" />,
+          name: "Rust",
+          icon: <SiRust className="w-4 h-4 text-[#9CA3AF]" />,
+        },
+        {
+          name: "Ethers.js",
+          icon: <SiEthers className="w-4 h-4 text-[#F59E0B]" />,
+        },
+        {
+          name: "Anchor",
+          icon: <TbAnchor className="w-4 h-4 text-[#F59E0B]" />,
+        },
+        {
+          name: "OpenZeppelin",
+          icon: <SiOpenzeppelin className="w-4 h-4 text-[#F59E0B]" />,
+        },
+        {
+          name: "Go",
+          icon: <SiGo className="w-4 h-4 text-[#F59E0B]" />,
         },
       ],
     },

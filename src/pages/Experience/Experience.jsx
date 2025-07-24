@@ -1,5 +1,6 @@
 import React from "react";
-import { Code2, Activity, Cpu, Layers, Network, Binary } from "lucide-react";
+import { Code2, Activity, Cpu, Layers, Network, Binary, Blocks } from "lucide-react";
+import { SiBlockchaindotcom, SiChainguard, SiChainlink, SiCoinmarketcap, SiEthereum, SiHiveBlockchain, SiSolidity } from "react-icons/si";
 
 const ExperienceCard = ({
   title,
@@ -54,28 +55,44 @@ const ExperienceCard = ({
 const ExperienceSection = () => {
   const experiences = [
     {
-      icon: Network,
-      title: "WordPress Developer",
-      company: "Fiverr",
-      period: "2019 - 2020",
+      icon: SiHiveBlockchain,
+      title: "Lead Web3 Engineer",
+      company: "CryptoDragons.com",
+      period: "06/2023 - 03/2025",
       description:
-        "Worked on developing and customizing WordPress websites for clients globally.",
+        "Wrote Smart Contract for ERC721 Tokens, ERC20 Tokens for minting Crypto Dragon Eggs, Warriors, Marketplace. Built the back-end for handling the white list members and integrated the Merklee tree structure. Demonstrated wallet generation, ether and token transfers, balance checks, and listening for events. Interpreted the Invision design into mobile-first responsive front-end UI. Redesigned the websites from scratch using React and custom Webpack configuration.",
+    },
+    {
+      icon: SiHiveBlockchain,
+      title: "Blockchain Architect and Engineer",
+      company: "Coincierge.io",
+      period: "08/2021 - 05/2023",
+      description:
+        "Created and deployed the EPT ERC20 smart contract to the Ethereum blockchain. Created a set of smart contracts for the vesting plans of the company's investors. Deployed and managed the token vesting smart contracts that lock investors EPT holdings for a particular time and allows them to regularly release part of the entire fund.",
+    },
+    {
+      icon: SiEthereum,
+      title: "Blockchain Developer",
+      company: "CryptoTax.io",
+      period: "03/2020 - 07/2021",
+      description:
+        "Provided the client with a full-functional back-end engine, smoothly integrated with rich front-end endpoints. Implemented features including tax report fees calculation for different operations (trades, deposits, withdrawals) and coverage of the most frequent crypto assets use cases (stacking, lending, ICO, hard-fork). Ensured that the first release of the production application went smoothly.",
     },
     {
       icon: Layers,
       title: "Junior Frontend Developer",
-      company: "Sera Programmer",
-      period: "2021 - 2023",
+      company: "Cropper.finance",
+      period: "03/2018 - 02/2020",
       description:
-        "Assisted in building and optimizing user interfaces with a focus on responsive and interactive designs.",
+        "Introduced state-of-the-art technology and stable technology into a new project. Architected the app structure, including the front-end codebase, front-end API proxy and server, deployment pipeline. Worked alongside the CTO, introducing best practices, robust solutions, to all aspects of the app, from UI/UX to API communication and authentication.",
     },
     {
-      icon: Code2,
-      title: "JavaScript Developer",
-      company: "OlovJS (Sera Programmer)",
-      period: "2023 - Present",
+      icon: Network,
+      title: "Associate Full-Stact Developer",
+      company: "Freelancer",
+      period: "08/2017 - 02/2018",
       description:
-        "Contributed to developing JavaScript libraries and enhancing framework functionalities.",
+        "Led end-to-end development of a full-stack budgeting app, including API design, UI/UX, and deployment on Vercel. Built a mock e-commerce platform using Next.js and Node.js to simulate real-world checkout, payment, and inventory systems",
     },
   ];
 
