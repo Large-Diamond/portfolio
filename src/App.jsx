@@ -13,6 +13,8 @@ import { Route, Routes } from "react-router-dom";
 export default function App() {
   const [isOnePage, setIsOnePage] = useState(false); // Toggle state
 
+  // This is main page
+
   return (
     <>
       <Header />
