@@ -5,44 +5,43 @@ import PropTypes from "prop-types";
 
 const projects = [
   {
-    title: "Olova! A Lightweight JavaScript Library",
+    title: "REChain",
     description:
       "REChain Network provides cutting-edge AI solutions for blockchain execution, decentralized governance, and crypto investment management.",
     src: "rock.jpg",
     link: "./REchain.png",
     color: "#5196fd",
-    githubLink: "https://github.com/Large-Diamond/portfolio",
+    githubLink: "https://github.com/Large-Diamond/rechain-nw",
     liveLink: "https://rechain.network/",
   },
   {
-    title: "A sleek portfolio built with React and Tailwind CSS ",
+    title: "CricketWeapon(CW)",
     description:
-      "A sleek portfolio built with React and Tailwind CSS to showcase your skills, projects, and experience in a modern design.",
+      "CricketWeapon store is an online cricket sports selling startup. It have served more than 20,000 customers through social media and other platforms.",
     src: "tree.jpg",
-    link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
+    link: "/CW.png",
     color: "#8f89ff",
-    githubLink: "https://github.com/Large-Diamond/portfolio",
-    liveLink: "https://codervai.vercel.app",
+    githubLink: "https://github.com/Large-Diamond/cricketweaopn-p",
+    liveLink: "https://cricketweaopn.vercel.app/",
   },
   {
-    title: "🚀 CodeWhisperer",
+    title: "Compound",
     description:
-      "🚀 CodeWhisperer A powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "water.jpg",
-    link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
-    color: "#fff",
-    githubLink: "https://github.com/Large-Diamond/portfolio",
-    liveLink: "https://codewhisperer.vercel.app/",
+      "All operations are powered by autonomous smart contracts, so there’s no need for credit checks or intermediaries—the protocol handles interest rate decisions, collateral monitoring, and risk management automatically.",
+    src: "tree.jpg",
+    link: "/Compound.png",
+    color: "#9f48ff",
+    githubLink: "https://github.com/Large-Diamond/compound-supply",
+    liveLink: "https://app.compound.finance/",
   },
   {
-    title: "CodeKori 🔥",
-    description:
-      "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "house.jpg",
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
-    color: "#ed649e",
-    githubLink: "https://github.com/Large-Diamond/portfolio",
-    liveLink: "https://codekori.js.org",
+    title: "Bucconomics",
+    description:"We reject trickle-down economics. Join the Bubble-Up revolution where prosperity begins with people and communities, powered by decentralized finance and democratic governance.",
+    src: "tree.jpg",
+    link: "/Bucconomics.png",
+    color: "#4c0797ff",
+    githubLink: "https://github.com/Large-Diamond/",
+    liveLink: "https://app--bucconomics-46a8a195.base44.app/",
   },
 ];
 
