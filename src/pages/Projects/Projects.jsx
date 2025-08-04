@@ -7,12 +7,12 @@ const projects = [
   {
     title: "Olova! A Lightweight JavaScript Library",
     description:
-      "A lightweight JavaScript library for creating beautiful, responsive UI components.",
+      "REChain Network provides cutting-edge AI solutions for blockchain execution, decentralized governance, and crypto investment management.",
     src: "rock.jpg",
-    link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
+    link: "./REchain.png",
     color: "#5196fd",
     githubLink: "https://github.com/Large-Diamond/portfolio",
-    liveLink: "https://olova.js.org/",
+    liveLink: "https://rechain.network/",
   },
   {
     title: "A sleek portfolio built with React and Tailwind CSS ",
