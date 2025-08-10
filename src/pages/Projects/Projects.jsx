@@ -29,6 +29,22 @@ const projects = [
     liveLink: "https://app.compound.finance/",
   },
   {
+    title: "AI Powered Website Builder",
+    description:"The AI-Powered Website Builder allows users to create production-ready front-end components or web pages using only natural language prompts. It provides a variety of pre-configured templates and prompts tailored to common applications, enabling you to build web applications with minimal coding.",
+    link: "/AIPoweredWebsiteBuilder.png",
+    color: "#257bebff",
+    githubLink: "https://github.com/Large-Diamond/AI-builder",
+    liveLink: "https://ai-website-builder-mu.vercel.app/",
+  },
+  {
+    title: "Lobe Chat",
+    description:"LobeChat Preview combines AI-based conversational modeling with an intuitive user interface to help you create, test, and deploy conversational chats.It's available for preview online and can be installed directly.",
+    link: "/LobeHub.png",
+    color: "#257bebff",
+    githubLink: "https://github.com/Large-Diamond/",
+    liveLink: "https://chat-preview.lobehub.com/chat",
+  },
+  {
     title: "Bucconomics",
     description: "BUCCONOMICS is presented as a platform—built using the no-code, AI-assisted Base44 framework—dedicated to decentralized financial ecosystems that prioritize community sovereignty over profit.",
     link: "/Bucconomics.png",
@@ -43,14 +59,6 @@ const projects = [
     color: "#257bebff",
     githubLink: "https://github.com/Large-Diamond/",
     liveLink: "https://app.defisaver.com/",
-  },
-  {
-    title: "Lobe Chat",
-    description:"LobeChat Preview combines AI-based conversational modeling with an intuitive user interface to help you create, test, and deploy conversational chats.It's available for preview online and can be installed directly.",
-    link: "/LobeHub.png",
-    color: "#257bebff",
-    githubLink: "https://github.com/Large-Diamond/",
-    liveLink: "https://chat-preview.lobehub.com/chat",
   },
   {
     title: "enzyme",
@@ -69,7 +77,7 @@ const projects = [
     liveLink: "https://purpleswap.io/",
   },
   {
-    title: "Stard",
+    title: "Stader /Dashboard",
     description:"The Stader Dashboard is a web-based analytics tool tracking Stader's activity on Ethereum. It aggregates on-chain metrics using data from The Graph, which syncs information from Stader’s Ethereum subgraph every 24 hours to keep stats up to date.",
     link: "/StaderDashboard.png",
     color: "#257bebff",
@@ -94,7 +102,7 @@ export default function Projects() {
              screen and (width: 1368px) and (height: 769px) {
         .project-card {
           scale: 0.85;
-          margin-top: -5vh;
+          margin-top: -11vh;
         }
         .project-container {
           height: 90vh;
@@ -113,7 +121,7 @@ export default function Projects() {
 
       if (isTargetResolution) {
         document.documentElement.style.setProperty("--project-scale", "0.85");
-        document.documentElement.style.setProperty("--project-margin", "-5vh");
+        document.documentElement.style.setProperty("--project-margin", "-11vh");
       } else {
         document.documentElement.style.setProperty("--project-scale", "1");
         document.documentElement.style.setProperty("--project-margin", "0");
@@ -180,7 +188,7 @@ function Card({
       <motion.div
         style={{
           // scale,
-          top: `calc(-5vh + ${i * 25}px)`,
+          top: `calc(-11vh + ${i * 25}px)`,
           transform: `scale(var(--project-scale, 1))`,
           marginTop: "var(--project-margin, 0)",
         }}
