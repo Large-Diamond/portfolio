@@ -68,6 +68,14 @@ const projects = [
     githubLink: "https://github.com/Large-Diamond/",
     liveLink: "https://purpleswap.io/",
   },
+  {
+    title: "Stard",
+    description:"The Stader Dashboard is a web-based analytics tool tracking Stader's activity on Ethereum. It aggregates on-chain metrics using data from The Graph, which syncs information from Stader’s Ethereum subgraph every 24 hours to keep stats up to date.",
+    link: "/StaderDashboard.png",
+    color: "#257bebff",
+    githubLink: "https://github.com/Large-Diamond/",
+    liveLink: "https://stader-dashboard.ouorz.com/",
+  },
 ];
 
 export default function Projects() {
@@ -171,7 +179,7 @@ function Card({
     >
       <motion.div
         style={{
-          scale,
+          // scale,
           top: `calc(-5vh + ${i * 25}px)`,
           transform: `scale(var(--project-scale, 1))`,
           marginTop: "var(--project-margin, 0)",
