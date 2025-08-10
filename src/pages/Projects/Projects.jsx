@@ -29,6 +29,22 @@ const projects = [
     liveLink: "https://app.compound.finance/",
   },
   {
+    title: "AI Powered Website Builder",
+    description:"The AI-Powered Website Builder allows users to create production-ready front-end components or web pages using only natural language prompts. It provides a variety of pre-configured templates and prompts tailored to common applications, enabling you to build web applications with minimal coding.",
+    link: "/AIPoweredWebsiteBuilder.png",
+    color: "#257bebff",
+    githubLink: "https://github.com/Large-Diamond/AI-builder",
+    liveLink: "https://ai-website-builder-mu.vercel.app/",
+  },
+  {
+    title: "Lobe Chat",
+    description:"LobeChat Preview combines AI-based conversational modeling with an intuitive user interface to help you create, test, and deploy conversational chats.It's available for preview online and can be installed directly.",
+    link: "/LobeHub.png",
+    color: "#257bebff",
+    githubLink: "https://github.com/Large-Diamond/",
+    liveLink: "https://chat-preview.lobehub.com/chat",
+  },
+  {
     title: "Bucconomics",
     description: "BUCCONOMICS is presented as a platform—built using the no-code, AI-assisted Base44 framework—dedicated to decentralized financial ecosystems that prioritize community sovereignty over profit.",
     link: "/Bucconomics.png",
@@ -43,14 +59,6 @@ const projects = [
     color: "#257bebff",
     githubLink: "https://github.com/Large-Diamond/",
     liveLink: "https://app.defisaver.com/",
-  },
-  {
-    title: "Lobe Chat",
-    description:"LobeChat Preview combines AI-based conversational modeling with an intuitive user interface to help you create, test, and deploy conversational chats.It's available for preview online and can be installed directly.",
-    link: "/LobeHub.png",
-    color: "#257bebff",
-    githubLink: "https://github.com/Large-Diamond/",
-    liveLink: "https://chat-preview.lobehub.com/chat",
   },
   {
     title: "enzyme",
