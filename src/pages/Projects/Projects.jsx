@@ -69,7 +69,7 @@ const projects = [
     liveLink: "https://purpleswap.io/",
   },
   {
-    title: "Stard",
+    title: "Stader /Dashboard",
     description:"The Stader Dashboard is a web-based analytics tool tracking Stader's activity on Ethereum. It aggregates on-chain metrics using data from The Graph, which syncs information from Stader’s Ethereum subgraph every 24 hours to keep stats up to date.",
     link: "/StaderDashboard.png",
     color: "#257bebff",
@@ -94,7 +94,7 @@ export default function Projects() {
              screen and (width: 1368px) and (height: 769px) {
         .project-card {
           scale: 0.85;
-          margin-top: -5vh;
+          margin-top: -11vh;
         }
         .project-container {
           height: 90vh;
@@ -113,7 +113,7 @@ export default function Projects() {
 
       if (isTargetResolution) {
         document.documentElement.style.setProperty("--project-scale", "0.85");
-        document.documentElement.style.setProperty("--project-margin", "-5vh");
+        document.documentElement.style.setProperty("--project-margin", "-11vh");
       } else {
         document.documentElement.style.setProperty("--project-scale", "1");
         document.documentElement.style.setProperty("--project-margin", "0");
@@ -180,7 +180,7 @@ function Card({
       <motion.div
         style={{
           // scale,
-          top: `calc(-5vh + ${i * 25}px)`,
+          top: `calc(-11vh + ${i * 25}px)`,
           transform: `scale(var(--project-scale, 1))`,
           marginTop: "var(--project-margin, 0)",
         }}
