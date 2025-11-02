@@ -111,7 +111,7 @@ const EducationSection = () => {
                   {edu.description}
                 </p>
 
-                <div className="space-y-3">
+                {/* <div className="space-y-3">
                   <h4 className="text-sm font-semibold text-white flex items-center gap-2">
                     <Trophy className="w-4 h-4 text-yellow-500" />
                     Key Achievements
@@ -127,7 +127,7 @@ const EducationSection = () => {
                       </div>
                     ))}
                   </div>
-                </div>
+                </div> */}
 
                 <div className="flex flex-wrap gap-2">
                   {edu.skills.map((skill, i) => (
