@@ -36,6 +36,7 @@ import {
   SiWeb3Dotjs,
   SiOpenzeppelin,
   SiGo,
+  SiNestjs,
 } from "react-icons/si";
 import { TbAnchor, TbBrandVscode, TbWebhook } from "react-icons/tb";
 import { BsGrid1X2 } from "react-icons/bs";
@@ -144,6 +145,10 @@ const SkillsSection = () => {
           name: "GraphQL",
           icon: <SiGraphql className="w-4 h-4 text-[#E10098]" />,
         },
+        {
+          name: "NestJS",
+          icon: <SiNestjs className="w-4 h-4 text-[#E10098]" />,
+        }
       ],
     },
     {
@@ -205,16 +210,11 @@ const SkillsSection = () => {
       title: "Tools & Technologies",
       color: "text-pink-400",
       skills: [
-        {
-          name: "VS Code",
-          icon: <TbBrandVscode className="w-4 h-4 text-[#007ACC]" />,
-        },
         { name: "Jest", icon: <SiJest className="w-4 h-4 text-[#C21325]" /> },
         {
           name: "Webpack",
           icon: <SiWebpack className="w-4 h-4 text-[#8DD6F9]" />,
         },
-        { name: "Redux", icon: <SiRedux className="w-4 h-4 text-[#764ABC]" /> },
         {
           name: "Firebase",
           icon: <SiFirebase className="w-4 h-4 text-[#FFCA28]" />,
