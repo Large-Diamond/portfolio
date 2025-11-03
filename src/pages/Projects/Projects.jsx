@@ -9,7 +9,7 @@ const projects = [
     description:"REChain Network provides cutting-edge AI solutions for blockchain execution, decentralized governance, and crypto investment management.",
     link: "./REchain.png",
     color: "#257bebff",
-    githubLink: "https://github.com/Large-Diamond/rechain-nw",
+    githubLink: "https://github.com/cryptomind410",
     liveLink: "https://rechain.network/",
   },
   {
@@ -17,7 +17,7 @@ const projects = [
     description:"CricketWeapon store is an online cricket sports selling startup. It have served more than 20,000 customers through social media and other platforms.",
     link: "/CW.png",
     color: "#257bebff",
-    githubLink: "https://github.com/Large-Diamond/cricketweaopn-p",
+    githubLink: "https://github.com/cryptomind410",
     liveLink: "https://cricketweaopn.vercel.app/",
   },
   {
@@ -25,7 +25,7 @@ const projects = [
     description:"All operations are powered by autonomous smart contracts, so there’s no need for credit checks or intermediaries—the protocol handles interest rate decisions, collateral monitoring, and risk management automatically.",
     link: "/Compound.png",
     color: "#257bebff",
-    githubLink: "https://github.com/Large-Diamond/compound-supply",
+    githubLink: "https://github.com/cryptomind410",
     liveLink: "https://app.compound.finance/",
   },
   {
@@ -33,7 +33,7 @@ const projects = [
     description:"The AI-Powered Website Builder allows users to create production-ready front-end components or web pages using only natural language prompts. It provides a variety of pre-configured templates and prompts tailored to common applications, enabling you to build web applications with minimal coding.",
     link: "/AIPoweredWebsiteBuilder.png",
     color: "#257bebff",
-    githubLink: "https://github.com/Large-Diamond/AI-builder",
+    githubLink: "https://github.com/cryptomind410",
     liveLink: "https://ai-website-builder-mu.vercel.app/",
   },
   {
@@ -41,7 +41,7 @@ const projects = [
     description:"LobeChat Preview combines AI-based conversational modeling with an intuitive user interface to help you create, test, and deploy conversational chats.It's available for preview online and can be installed directly.",
     link: "/LobeHub.png",
     color: "#257bebff",
-    githubLink: "https://github.com/Large-Diamond/",
+    githubLink: "https://github.com/cryptomind410",
     liveLink: "https://chat-preview.lobehub.com/chat",
   },
   {
@@ -49,7 +49,7 @@ const projects = [
     description: "BUCCONOMICS is presented as a platform—built using the no-code, AI-assisted Base44 framework—dedicated to decentralized financial ecosystems that prioritize community sovereignty over profit.",
     link: "/Bucconomics.png",
     color: "#257bebff",
-    githubLink: "https://github.com/Large-Diamond/",
+    githubLink: "https://github.com/cryptomind410",
     liveLink: "https://app--bucconomics-46a8a195.base44.app/",
   },
   {
@@ -57,7 +57,7 @@ const projects = [
     description: "DeFi Saver is a non-custodial, all-in-one DeFi management platform that consolidates advanced tools for managing decentralized finance positions across multiple protocols.",
     link: "/DeFisaver.png",
     color: "#257bebff",
-    githubLink: "https://github.com/Large-Diamond/",
+    githubLink: "https://github.com/cryptomind410",
     liveLink: "https://app.defisaver.com/",
   },
   {
@@ -65,7 +65,7 @@ const projects = [
     description:"Enzyme Finance is a decentralized asset management platform built on Ethereum that allows users to create, manage, and invest in custom tokenized investment vehicles, called vaults.",
     link: "/enzyme.png",
     color: "#257bebff",
-    githubLink: "https://github.com/Large-Diamond/",
+    githubLink: "https://github.com/cryptomind410",
     liveLink: "https://enzyme.finance/",
   },
   {
@@ -73,7 +73,7 @@ const projects = [
     description:"PurpleSwap is a decentralized trading platform that utilizes secure, automated smart contracts to enable token exchange and staking.",
     link: "/PurpleSwap.png",
     color: "#257bebff",
-    githubLink: "https://github.com/Large-Diamond/",
+    githubLink: "https://github.com/cryptomind410",
     liveLink: "https://purpleswap.io/",
   },
   {
@@ -81,7 +81,7 @@ const projects = [
     description:"The Stader Dashboard is a web-based analytics tool tracking Stader's activity on Ethereum. It aggregates on-chain metrics using data from The Graph, which syncs information from Stader’s Ethereum subgraph every 24 hours to keep stats up to date.",
     link: "/StaderDashboard.png",
     color: "#257bebff",
-    githubLink: "https://github.com/Large-Diamond/",
+    githubLink: "https://github.com/cryptomind410",
     liveLink: "https://stader-dashboard.ouorz.com/",
   },
 ];
