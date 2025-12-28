@@ -14,10 +14,10 @@ const EducationSection = () => {
 
     {
       degree: "Bachelor's degree in Software Engineering",
-      school: "Hanoi University of Business and Technology(HUBT)",
+      school: "Okayama University of Science",
       mascot: "📗",
       year: "2013-2017",
-      achievements: ["GPA: 8.5", "Subject: Software engineering"],
+      achievements: ["Subject: Software engineering"],
       skills: ["Computer network", "Software engineering", "Web Development", "Database Systems", "Operating Systems"],
       description:
         "I have invested a lot of time into acquiring a comprehensive knowledge of computer engineering.",

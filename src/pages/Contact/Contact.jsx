@@ -122,7 +122,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold">Location</h3>
-                    <p className="text-gray-400">Can Tho, Vietnam</p>
+                    <p className="text-gray-400">Okayama, Japan</p>
                   </div>
                 </div>
               </div>
