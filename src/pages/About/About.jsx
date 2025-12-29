@@ -23,7 +23,7 @@ export default function About() {
 
             <div className="relative space-y-4">
               <p className="text-white">
-                Hello! I'm Hiroshi Tanaka, a seasoned blockchain engineer with a Bachelor's degree 
+                Hello! I'm Koreaki Sakai, a seasoned blockchain engineer with a Bachelor's degree 
                 in Software Engineering and over 7+ years of full-stack development experience,
                  transitioning fully into Web3 in 2019.{" "}
               </p>
